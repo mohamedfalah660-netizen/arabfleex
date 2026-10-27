@@ -18,7 +18,7 @@ from flask import Flask
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # توكن البوت الخاص بك
-BOT_TOKEN = "7808630939:AAHRqWEPygkmaU2mUyaOIVVEENBjNi2RE00"
+BOT_TOKEN = "7808630939:AAHR<WEPygkmaU2mUyaOIVVEENBjNi2RE00"
 ADMIN_CHAT_ID = os.environ.get("ADMIN_CHAT_ID", "1013251619")
 
 DATA_DIR = os.environ.get("DATA_DIR", "/app/data")
